@@ -20,7 +20,7 @@ api = tweepy.API(auth)
 
 #api_version.status_update("Hello, I am back. I have missed you")
 
-api.update_status("Name one awesome thing you will do today😎 '\n'Beside following @tradingsensei 👀 '\n''\n' `$link $VRA $btc $ada $dot $xrp  $SXP $bnb $atom $eth $ltc $kcs $aioz $theta $tfuel")
+api.update_status("Name one awesome thing you will do today😎 '\n'Beside following @tradingsensei 👀 '\n''\n' $link $VRA $btc $ada $dot $xrp  $SXP $bnb $atom $eth $ltc $kcs $aioz $theta $tfuel")
 
 api.update_status("Name one awesome thing you will do today😎 '\n'Beside following @tradingsensei 👀 '\n''\n'  $STORY $celo $fil $eros $dino $xrp $mdx $zora $zoo $neo $doge $btc $sol $btcxec $eth $dai $qtum $pngn $mbox $bnb $eth")
 
