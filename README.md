@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 JOYBOT by yongs
 
 JOYBOT is a Python-based bot that promotes your Twitter account by automatically tweeting content on your behalf. The bot is built using the Tweepy library, which provides an easy-to-use interface for interacting with the Twitter API.
@@ -22,3 +23,7 @@ If you would like to contribute to the development of Joybot, feel free to submi
 
 License
 Joybot by yongs is released under the MIT License. See LICENSE for more information.
+=======
+# SmileTweetBot
+Bot that will grow my twitter account
+>>>>>>> b2fefa6af30ae9ee67e5387eb02216f711f8a82e
