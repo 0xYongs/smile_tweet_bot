@@ -35,7 +35,7 @@ api.update_status(tweet + "\n\n $lunc #LUNC #bnb #bsc #binance #LuncBurn #luncco
 
 api.update_status(tweet + "\n\n $BTC $ETH $EGLD $XRP $ADA $DOGE $MATIC $SOL $DOT $AVAX $LINK $ICP $APT $HBAR $NEAR $CRO $ALGO")
 
-api.update_status(tweet + "\n\n #gm #community #crypto $btc $bnb #DogeCola $eth $shib $doge #nft #bsc #memecoin")
+api.update_status(tweet + "\n\n  $btc $bnb #DogeCola $eth $shib $doge #nft #bsc #memecoin")
 
 print("Tweets updated for @CryptoQueen")
 # 
