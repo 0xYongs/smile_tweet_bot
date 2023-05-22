@@ -31,7 +31,7 @@ api.update_status(tweet + "\n\n $BTC $ETH $DOGE $ARB $XRP $SOL $BNB $LTC $AVAX $
                                     
 api.update_status(tweet + "\n\n $BTC $ETH $DOGE $XRP $ARB $LTC $BNB $SOL $POLYX $ADA $POLYX $OM $PERL $TORN $WIN $BTTC $CTSI $CFX $DEXE $CVC")
 
-api.update_status(tweet + "\n\n $lunc #LUNC #bnb #bsc #binance #LuncBurn #lunccommunity $shib #shib #btc $btc #1000x #crypto #cryptocurrency #luncarmy #ETH #CREMAT #CREMATburn")
+api.update_status(tweet + "\n\n $lunc #LUNC #bnb #bsc #binance #LuncBurn #lunccommunity $shib #shib #btc $btc #1000x $crypto $cryptocurrency $luncarmy $ETH $CREMAT $CREMATburn")
 
 api.update_status(tweet + "\n\n $BTC $ETH $EGLD $XRP $ADA $DOGE $MATIC $SOL $DOT $AVAX $LINK $ICP $APT $HBAR $NEAR $CRO $ALGO")
 
