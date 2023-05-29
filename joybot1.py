@@ -16,16 +16,17 @@ auth.set_access_token(access_token , access_token_secret)
 api = tweepy.API(auth)
 
 #Create a tweet
-#tweet = "According to human beings, human beings are the smartest animals\n\n According to me, @0xYongs is the account to follow now!"
-tweet = "The bad news is 550 is not 225 \n\n The good news is you can follow @0xYongs for more truth"
+#tweet = "According to human beings, human beings are the intelligent animals\n\n According to me, @0xYongs is the account to follow now!"
+#tweet = "The bad news is 550 is not 225 \n\n The good news is you can follow @0xYongs for more truth"
 #tweet = "If you see this tweet, Smile \n\n While still smiling, follow @0xYongs to find more reasons to smile"
+tweet = "He trades, he codes and he creates \n\nAs if pridicting the last bull run was not enough. \n\nHe plans to do it again, he's @0xYongs"
 
 #Update a tweet
-api.update_status(tweet + "\n\n #ai $neko $cvag $axs $uft $xrp $aave $mobi $jsb $ely $near $bsp $coco $mola $ada $avax $dot $rune $rvn $air $mfi $cro")
+api.update_status(tweet + "\n\n #ai $neko $cvag $axs $uft $xrp $aave $mobi $jsb $ely $near $bsp $coco #ALX_SE  $ada $avax $dot $rune $rvn $air $mfi $cro")
 
-api.update_status(tweet +" \n\n #pepe $wspp $hot $qdx $stx $nexo $snx $coco $dot $usdt $shib $cake $bcn $mina $dpet $xrp $qnt $bloc $bsv $crv $dcr $ltc $btcb")
+api.update_status(tweet +" \n\n #pepe $wspp $hot $qdx $stx $nexo $snx $coco $dot $usdt $shib $cake $bcn $#ALX_SE $dpet $xrp $qnt $bloc $bsv $crv $dcr $ltc $btcb")
 
-api.update_status(tweet + "\n\n $bwx $aave $btt $chz $wspp $air $ada $egt $yfpi $gmx $pax $win $xem $fil $ksm $zoo $hop $mina $btg $amp $vntw $dcr $xdc")
+api.update_status(tweet + "\n\n $bwx $aave $btt $chz $wspp $air $ada $egt $yfpi $gmx $pax $win $xem $fil #ALX_SE $zoo $hop $mina $btg $amp $vntw $dcr $xdc")
      
 api.update_status(tweet + "\n\n $ada $vgx $bree $chz $grt $dash $mkr $drgb $iotx $coco $flow $btg $bnb $bnb $sol $lpnt $vet $iotx $klay $zrx $ring $mby")
                                     
