@@ -21,13 +21,13 @@ api = tweepy.API(auth)
 tweet = "He trades, he codes and he creates \n\nAs if pridicting the last bull run was not enough. \n\nHe plans to do it again, he's @0xYongs"
 
 #Update a tweet
-#api.update_status(tweet + "\n\n #coding #programming $COTI $LUNA $VER $LTC $BTC $VET $DOGE $XRP $VRA $ENJ $OCEAN $RUNE $MIR $BAND $HTR $TEL $HTR")
+api.update_status(tweet + "\n\n #coding #programming $COTI $LUNA $VER $LTC $BTC $VET $DOGE $XRP $VRA $ENJ $OCEAN $RUNE $MIR $BAND $HTR $TEL $HTR")
 
-#api.update_status(tweet +" \n\n #backend #opensource $ROOM $UMB $MATIC $DOT $ADA $BTC $LTC $AVAX $DOGE $PAID $HTR $CELL $LABS $FILE $KYL $ELON $ENJ $CHZ $WOLFY")
+api.update_status(tweet +" \n\n #backend #opensource $ROOM $UMB $MATIC $DOT $ADA $BTC $LTC $AVAX $DOGE $PAID $HTR $CELL $LABS $FILE $KYL $ELON $ENJ $CHZ $WOLFY")
 
-#api.update_status(tweet + "\n\n $doge $eth $btc $ltc $fil $bnb $rsr $band $link $comp $dot $trb $uni $aave $sxp $sol $cake $sushi $xrp $alice $xvs $dot")
+api.update_status(tweet + "\n\n $doge $eth $btc $ltc $fil $bnb $rsr $band $link $comp $dot $trb $uni $aave $sxp $sol $cake $sushi $xrp $alice $xvs $dot")
      
-#api.update_status(tweet + "\n\n $code $twt $bnb $sono $fyz $ori $lpnt $btc $inu #ALX_SE $toc $ont $hbar $near $flow $rune $zec $ovi $dot $etc $tct $btc $lcg $hnt $snx $xem $ftm $xt")
+api.update_status(tweet + "\n\n $code $twt $bnb $sono $fyz $ori $lpnt $btc $inu #ALX_SE $toc $ont $hbar $near $flow $rune $zec $ovi $dot $etc $tct $btc $lcg $hnt $snx $xem $ftm $xt")
                                     
 api.update_status(tweet + "\n\n #dapp- #ai $polr $xtz $neo $pngn $ftm $qtum $rev $enj $aave $cvt $play $bbo $revo $icx $avax $sc $sx $trx $eos $slp $hodl $bch $tiki  $earn $nano")
 
