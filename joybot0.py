@@ -2,13 +2,17 @@
 
 import tweepy
 
-consumer_key = "k2GamaYV4XieZrs2h5yfXStNM"
-consumer_secret = "eTt3Q3CvPsXgVs1e9IKqITfMyK9h4Nb3g9l1AJjFDdGfeHQYt8"
+api_key = "k2GamaYV4XieZrs2h5yfXStNM"
+api_secret = "eTt3Q3CvPsXgVs1e9IKqITfMyK9h4Nb3g9l1AJjFDdGfeHQYt8"
+bearer_token = "AAAAAAAAAAAAAAAAAAAAANaRTAEAAAAAoTEkq5LMJyU5U5QiHdiXmjtRSYY%3DplQF7xylxMLUhyUvy27h3OPSdoz4qFC0sYbbD8rqRmkvzgwM3K"
 access_token = "1431226236794281996-NMCM4nBrpNVngviwi3k0zLwG0YD0mY"
 access_token_secret = "qbboIKhI6tQy6buDKDdfwAnuUHUjSyvhvmC3dEHHBaFFV"
 
+# Gaining access and connecting to Twitter API using Credentials
+client = tweepy.Client(bearer_token, api_key, api_secret, access_token, access_token_secret)
+
 #Authenticate Twitter details
-auth = tweepy.OAuthHandler(consumer_key , consumer_secret)
+auth = tweepy.OAuthHandler(api_key , api_secret)
 auth.set_access_token(access_token , access_token_secret)
 
 #Create an instance of the API class
@@ -21,20 +25,9 @@ api = tweepy.API(auth)
 tweet = "He trades, he codes and he creates \n\nAs if pridicting the last bull run was not enough. \n\nHe plans to do it again, he's @0xYongs"
 
 #Update a tweet
-api.update_status(tweet + "\n\n #coding #programming $COTI $LUNA $VER $LTC $BTC $VET $DOGE $XRP $VRA $ENJ $OCEAN $RUNE $MIR $BAND $HTR $TEL $HTR")
-
-api.update_status(tweet +" \n\n #backend #opensource $ROOM $UMB $MATIC $DOT $ADA $BTC $LTC $AVAX $DOGE $PAID $HTR $CELL $LABS $FILE $KYL $ELON $ENJ $CHZ $WOLFY")
-
-api.update_status(tweet + "\n\n $doge $eth $btc $ltc $fil $bnb $rsr $band $link $comp $dot $trb $uni $aave $sxp $sol $cake $sushi $xrp $alice $xvs $dot")
-     
-api.update_status(tweet + "\n\n $code $twt $bnb $sono $fyz $ori $lpnt $btc $inu #ALX_SE $toc $ont $hbar $near $flow $rune $zec $ovi $dot $etc $tct $btc $lcg $hnt $snx $xem $ftm $xt")
-                                    
-api.update_status(tweet + "\n\n #dapp- #ai $polr $xtz $neo $pngn $ftm $qtum $rev $enj $aave $cvt $play $bbo $revo $icx $avax $sc $sx $trx $eos $slp $hodl $bch $tiki  $earn $nano")
-
-api.update_status(tweet + "\n\n #dapp $qtum $ftt $trx $coco $inu $cws #ALX_SE $tusd $pvu $xlm $sol $ctcn $slp $cro $rho $asp $yfi $zoo $egld $hnt $twt $crdt $atom $dsys $liq $rune")
-
-api.update_status(tweet + "\n\n #womenintech $OCEA $RSR $VET $CHZ $FET $LUNA $LINK $DOT $ANKR $LTC $ETH $BTC $ADA $DOGE")
-
-api.update_status(tweet + "\n\n #webdevelopment $BTC $ETH $XRP $DOT $KSM $LINK $GRT #ALX_SE $SXP $COCOS  $AXS $DEGO $SKL $SUSHI $ZIL $MATIC $CHZ $ANKR $AKRO  $SHIB $DOGE")
-
+client.create_tweet(text="The bad news is 550 is not 225 \n\n The good news is you can follow @0xYongs for more truth\n\n Dillon Brooks #sundayvibes #AskFFT NFL Sunday Good Sunday Go Birds #FlyEaglesFly Team USA #HereWeGo Mel Tucker ")
+client.create_tweet(text="The bad news is 550 is not 225 \n\n The good news is you can follow @0xYongs for more truth\n\n Football Sunday #DawgPound Izzy Who Dey Phoenixville Go Browns Game Day Mikal Bridges Who Dat Strickland ")
+client.create_tweet(text="The bad news is 550 is not 225 \n\n The good news is you can follow @0xYongs for more truth\n\n Blessed Sunday Shaheen Andrews Madoka Rohit Steve Kerr Homura Isaiah Likely Michigan State Gunna ")
+client.create_tweet(text="The bad news is 550 is not 225 \n\n The good news is you can follow @0xYongs for more truth\n\n Danelo Cavalcante Musgrave Higbee full ppr Tink Adesanya Auburn Airdrop Cleveland Browns Longwood Gardens")
+client.create_tweet(text="The bad news is 550 is not 225 \n\n The good news is you can follow @0xYongs for more truth\n\n PEMDAS Redzone Stanford Stargate Mark Cuban Briles Barclays Ability Invictus Pereira")
 print("Tweets updated for @berkylazana")
